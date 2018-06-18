@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jToggleButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="398" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jToggleButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="20" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="910" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="73" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jLabel1" min="-2" pref="315" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="323" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" pref="26" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" pref="541" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="24" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="The Function lesson"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea1">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value=" 1.Even and odd function&#xa;                   An odd function has rotational symmetry of 180 about the origin.It will have the same image under a &#xa;horizontal reflection as it would under a vertical reflection.&#xa;                   For example,if f(-x) = f(x),it is an odd function.&#xa;                   An even function is symmetric in the y-axis,under a horizontal reflection it will have the same image.&#xa;                   For example ,if f(-x)=-f(x),it is an even function.&#xa;             &#xa;                   Example.Identify each of the following as even,odd,or neither&#xa;                  (a)f(x)=x^3-x            (b)g(x)=3(x^2)-2x+1            (c)h(x)=1/(x^2)-3(x^4)&#xa;&#xa;                   Answer:&#xa;                 f(-x)=-x^3+x                    (b) g(-x)=3(x^2)+2x+1                                 (c)h(-x)=1/(x^2)-3(x^4)&#xa;                 -f(x)= -x^3+x                       -g(x)=-3(x^2)+2x-1                                  -h(x)=-1/(x^2)+3(x^4)&#xa;                -f(x) = f(-x)                          g(-x) is not equal to g(x) and -g(x)          h(-x)= h(x)&#xa;                f(x) is odd.                              g(x) is neither .                                    h(x) is even.&#xa;            &#xa;             &#xa;                 2.Factoring Differences/sums of cubes&#xa;                  (A^3)-(B^3)=(A-B)(A^2+AB+B^2)                 &#xa;                   (A^3)+(B^3)=(A+B)(A^2+AB+B^2)&#xa;&#xa;&#xa;                    Example:factor fully&#xa;        &#xa;                     (a)n^3-27(m^3)                                      (b)8(a^3)+125(b^3)&#xa;                     Answer:    (a)n^3- 27(m^3)                                (b) 8(a^3)+125(b^3)&#xa;                               =(n)^3-(3m)^3                                      =(2a)^3+(5b)^3&#xa;                              =(n-3m)(n^2+3nm+9m^2)                    =(2a+5b)(4a^2-10ab+25b^2)&#xa;"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JToggleButton" name="jToggleButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Press Here to Go to the Question"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
