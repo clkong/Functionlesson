@@ -159,10 +159,10 @@ public class FunctionQuestion extends javax.swing.JFrame {
             jLabel8.setText("Congratulations!You are right about the first question!");
         }
         if(!jTextField2.getText().equals("c")){
-            jLabel9.setText("You are wrong about the first question!Think again!");
+            jLabel9.setText("You are wrong about the second question!Think again!");
         }
         else{
-            jLabel9.setText("Congratulations!You are right about the first question!");
+            jLabel9.setText("Congratulations!You are right about the second question!");
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 
